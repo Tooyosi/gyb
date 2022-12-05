@@ -4,7 +4,7 @@ import { landing, routeInterface } from "Routes";
 import ScrollToTop from "components/ScrollToTop";
 import LandingLayout from "layout/Landing/LandingLayout";
 
-const childRoutes = (Layout: any, routes: Array<any>) =>
+const childRoutes = (Layout: React.FC<any>, routes: Array<routeInterface>) =>
   routes.map(
     (
       { children, path, component: Component, name }: routeInterface,

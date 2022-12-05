@@ -14,4 +14,10 @@ const landingRoutes: routeInterface = {
   component: Landing
 }
 
-export const landing: Array<routeInterface> = [landingRoutes];
+const aboutRoutes: routeInterface = {
+  path: '/about',
+  name: 'Who We Are',
+  component: Landing
+}
+
+export const landing: Array<routeInterface> = [landingRoutes, aboutRoutes];

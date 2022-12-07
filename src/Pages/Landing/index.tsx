@@ -1,8 +1,11 @@
 import React from 'react'
+import HomeAbout from 'components/Cards/HomeAbout'
 
 const Landing = () => {
   return (
-    <div>Landing</div>
+    <div>
+      <HomeAbout />
+    </div>
   )
 }
 

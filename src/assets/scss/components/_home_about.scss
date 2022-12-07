@@ -1,0 +1,50 @@
+@import "../variables";
+
+.home_about {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.home_about .left {
+    float: left;
+    padding: 0 20px 20px 0;
+    max-height: 75%;
+}
+
+.home_about .text_col {
+    height: 100%;
+    
+
+    h3 {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: $green;
+    }
+
+    h2 {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: -0.03em;
+    }
+
+    p {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

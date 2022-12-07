@@ -20,4 +20,16 @@ const aboutRoutes: routeInterface = {
   component: Landing
 }
 
-export const landing: Array<routeInterface> = [landingRoutes, aboutRoutes];
+const solutionRoutes: routeInterface = {
+  path: '/solution',
+  name: 'Our Solution',
+  component: Landing
+}
+
+const contactUs: routeInterface = {
+  path: '/contactus',
+  name: 'Contact Us',
+  component: Landing
+}
+
+export const landing: Array<routeInterface> = [landingRoutes, aboutRoutes, solutionRoutes, contactUs];

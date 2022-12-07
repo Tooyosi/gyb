@@ -1,12 +1,13 @@
-import Header from 'components/Header/Header'
 import React from 'react'
+import Header from 'components/Header/Header'
+import Footer from 'components/Footer/Footer'
 
 const LandingLayout: React.FC<any> = ({ children }) => {
     return (
         <div>
             <Header />
             {children}
-            Footer here
+            <Footer />
         </div>
     )
 }

@@ -8,10 +8,13 @@
 @import "./components/home_about";
 @import "./components/footer";
 
-
+// pages
+@import "./pages/landing";
 
 // layouts
 @import "./layouts/landing";
 
 @import 'bootstrap/scss/bootstrap';
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
 @import 'react-toastify/dist/ReactToastify.min.css';

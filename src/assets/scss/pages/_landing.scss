@@ -1,0 +1,66 @@
+#landing {
+    .small-header {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: $green  !important;
+    }
+
+    .main-header {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: -0.03em;
+
+        color: #1E1E1E;
+    }
+
+    .body-text {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+
+        text-align: center;
+
+        /* Dark Grey - Body text color */
+
+        color: #434343;
+    }
+
+    .services {
+        padding-top: 50px;
+        padding-top: 50px;
+    }
+}
+
+.slick-arrow {
+    &::before {
+        background: transparent !important;
+        color: $black  !important;
+        font-size: 41px;
+    }
+
+    &.slick-next{
+        margin-left: 30px;
+    }
+    &.slick-prev{
+        margin-right: 30px;
+    }
+}
+
+.slick-slider-fade .slick-track {
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    transform: none !important;
+}

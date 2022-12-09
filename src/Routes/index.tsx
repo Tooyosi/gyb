@@ -1,4 +1,6 @@
 import Landing  from "Pages/Landing"
+import About from "Pages/About"
+
 
 export interface routeInterface {
   path: string
@@ -17,7 +19,7 @@ const landingRoutes: routeInterface = {
 const aboutRoutes: routeInterface = {
   path: '/about',
   name: 'Who We Are',
-  component: Landing
+  component: About
 }
 
 const solutionRoutes: routeInterface = {

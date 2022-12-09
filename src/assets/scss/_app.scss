@@ -7,6 +7,7 @@
 @import "./components/navbar";
 @import "./components/home_about";
 @import "./components/footer";
+@import "./components/cards";
 
 // pages
 @import "./pages/landing";
@@ -15,6 +16,6 @@
 @import "./layouts/landing";
 
 @import 'bootstrap/scss/bootstrap';
-@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 @import 'react-toastify/dist/ReactToastify.min.css';

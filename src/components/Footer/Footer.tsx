@@ -12,7 +12,7 @@ const Footer = () => {
             <Row>
                 <Col md="3" sm="6">
                     <Logo />
-                    <p>Lorem ipsum dolor sit amet consectetur. </p>
+                    <p id='footer-sub'>Lorem ipsum dolor sit amet consectetur. </p>
                     <Row>
                         <Col md="auto">
                             <a href={linkedin}>

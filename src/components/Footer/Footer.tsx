@@ -8,7 +8,7 @@ const Footer = () => {
     const { facebook, twitter, instagram, linkedin } = socials;
 
     return (
-        <Container fluid className='footer pt-5 mt-5' >
+        <Container fluid className='footer pt-5' >
             <Row>
                 <Col md="3" sm="6">
                     <Logo />
@@ -78,6 +78,9 @@ const Footer = () => {
                     </p>
 
                 </Col>
+            </Row>
+            <Row className='text-green py-2 mt-3 justify-content-center'>
+                &copy; 2022 Grow your Business Global.
             </Row>
             {/* <div className="footer_row">
                 <div className="footer_col">

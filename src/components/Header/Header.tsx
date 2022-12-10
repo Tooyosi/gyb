@@ -7,13 +7,14 @@ import {
     NavItem,
 } from 'reactstrap';
 import { Link } from "react-router-dom"
-import Logo from 'components/Logo/Logo';
+// import Logo from 'components/Logo/Logo';
+import LogoHeader from 'components/Logo/LogoHeader';
 import { landing } from 'Routes';
 
 const Header = ({ toggler, logoType, ...props }: any) => {
     const [isOpen, setIsOpen] = useState(false);
 
-    const toggle = () => setIsOpen(!isOpen);  
+    const toggle = () => setIsOpen(!isOpen);
 
     const getActiveClassName = (url: string) => {
         if (`${window.location.pathname}${window.location.hash}` === url) {
@@ -27,7 +28,7 @@ const Header = ({ toggler, logoType, ...props }: any) => {
         <Navbar id='header' fixed='top' color='white' expand="lg" className='pt-3 px-4'>
             {/* <Container fluid> */}
                 <Link className="nav-brand" to="/">
-                    <Logo />
+                    <LogoHeader />
                 </Link>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>

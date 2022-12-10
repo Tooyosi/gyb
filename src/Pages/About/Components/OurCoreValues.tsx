@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap'
 
 const OurCoreValues = () => {
   return (
-    <Container fluid className='beige_back py-5'>
+    <Container fluid className='bg-creamwhite py-5'>
             <Row className='mx-auto text-center'>
                 <Col>
                     <h6 className="small-header green_header">OUR CORE VALUES</h6>
@@ -16,7 +16,7 @@ const OurCoreValues = () => {
             <Row className='justify-content-center'>
                 {/* Left column */}
                 <Col className='justify-content-left mx-2' md="4">
-                    <Row className='white_back my-3'>
+                    <Row className='bg-white my-3 py-1'>
                         <Col md="2">
                             <img loading='lazy' alt="Data Security" className='img-fluid'
                                 src={require(`../Assets/Images/Security.svg`).default}
@@ -30,7 +30,7 @@ const OurCoreValues = () => {
 
 
 
-                    <Row className='white_back my-3'>
+                    <Row className='bg-white my-3 py-1'>
                         <Col md="2">
                             <img loading='lazy' alt="Data Security" className='img-fluid'
                                 src={require(`../Assets/Images/QA.svg`).default}
@@ -46,7 +46,7 @@ const OurCoreValues = () => {
 
                 {/* Right column */}
                 <Col className='justify-content-left mx-2' md="4">
-                    <Row className='white_back my-3'>
+                    <Row className='bg-white my-3 py-1'>
                         <Col md="2">
                             <img loading='lazy' alt="Data Security" className='img-fluid'
                                 src={require(`../Assets/Images/Growth.svg`).default}
@@ -59,7 +59,7 @@ const OurCoreValues = () => {
                     </Row>
 
 
-                    <Row className='white_back my-3'>
+                    <Row className='bg-white my-3 py-1'>
                         <Col md="2">
                             <img loading='lazy' alt="Data Security" className='img-fluid'
                                 src={require(`../Assets/Images/Insurance.svg`).default}

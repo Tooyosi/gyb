@@ -6,14 +6,30 @@
     color: $green;
 }
 
-.beige_back {
-    background-color: $creamwhite;
-}
-
-.white_back {
-    background-color: $white;
-}
-
 // #core_values img {
 //     float: left;
 // }
+
+// Headers and Paragraphs
+.header {
+    h5 {
+        font-family: Work Sans;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21.11px;
+    }
+
+    h6 {
+        font-family: Work Sans;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42.23px;
+    }
+
+    p {
+        font-family: Work Sans;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

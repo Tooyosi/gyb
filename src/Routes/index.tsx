@@ -1,5 +1,6 @@
 import Landing  from "Pages/Landing"
 import About from "Pages/About"
+import Solution from "Pages/Solution"
 
 
 export interface routeInterface {
@@ -25,7 +26,7 @@ const aboutRoutes: routeInterface = {
 const solutionRoutes: routeInterface = {
   path: '/solution',
   name: 'Our Solution',
-  component: Landing
+  component: Solution
 }
 
 const contactUs: routeInterface = {

@@ -1,11 +1,12 @@
 import React from 'react'
 import Logo from 'components/Logo/Logo'
-import { socials } from '../../utils/socials'
+// import { socials } from '../../utils/socials'
 import { Col, Container, Row } from 'reactstrap';
+import Socials from 'components/Socials/Socials';
 
 const Footer = () => {
 
-    const { facebook, twitter, instagram, linkedin } = socials;
+    // const { facebook, twitter, instagram, linkedin } = socials;
 
     return (
         <Container fluid className='footer pt-5' >
@@ -13,7 +14,7 @@ const Footer = () => {
                 <Col md="3" sm="6">
                     <Logo />
                     <p id='footer-sub'>Lorem ipsum dolor sit amet consectetur. </p>
-                    <Row>
+                    {/* <Row>
                         <Col md="auto">
                             <a href={linkedin}>
                                 <img loading='lazy' alt="Our LinkendIn page" className='left img-fluid'
@@ -42,7 +43,8 @@ const Footer = () => {
                                 />
                             </a>
                         </Col>
-                    </Row>
+                    </Row> */}
+                    <Socials />
                 </Col>
                 <Col md="3" sm="6">
                     <h5>Quick Links</h5>

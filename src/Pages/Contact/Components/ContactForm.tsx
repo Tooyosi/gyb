@@ -1,13 +1,22 @@
 import React from 'react';
-import { Formik, Form, useField } from 'formik';
- import * as Yup from 'yup';
+import Formik from 'components/Forms/Formik'
+import SimpleFormik from 'components/Forms/SimpleFormik.jsx';
+import ContactInfo from './ContactInfo';
+import { Container, Row, Col } from 'reactstrap';
 
 
 const ContactForm = () => {
   return (
-    <div>
-
-    </div>
+    <Container >
+        <Row className='justify-content-center'>
+            <Col md="5" sm="12">
+                <SimpleFormik />
+            </Col>
+            <Col md="5" sm="12">
+                <ContactInfo />
+            </Col>
+        </Row>
+    </Container>
   )
 }
 

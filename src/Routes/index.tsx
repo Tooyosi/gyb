@@ -1,6 +1,7 @@
 import Landing  from "Pages/Landing"
 import About from "Pages/About"
 import Solution from "Pages/Solution"
+import Contact from "Pages/Contact"
 
 
 export interface routeInterface {
@@ -32,7 +33,7 @@ const solutionRoutes: routeInterface = {
 const contactUs: routeInterface = {
   path: '/contactus',
   name: 'Contact Us',
-  component: Landing
+  component: Contact
 }
 
 export const landing: Array<routeInterface> = [landingRoutes, aboutRoutes, solutionRoutes, contactUs];

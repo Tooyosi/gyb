@@ -7,7 +7,7 @@ const Socials = () => {
     const { facebook, twitter, instagram, linkedin } = socials;
 
   return (
-    <Container fluid>
+    <Container fluid >
         <Row>
             <Col md="auto">
                 <a href={linkedin}>

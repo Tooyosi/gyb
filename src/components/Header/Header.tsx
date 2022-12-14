@@ -25,7 +25,7 @@ const Header = ({ toggler, logoType, ...props }: any) => {
     }
 
     return (
-        <Navbar id='header' fixed='top' color='white' expand="lg" className='pt-3 px-4'>
+        <Navbar id='header' fixed='top' color='white' expand="lg" className='pt-3 px-md-4'>
             {/* <Container fluid> */}
                 <Link className="nav-brand" to="/">
                     <LogoHeader />

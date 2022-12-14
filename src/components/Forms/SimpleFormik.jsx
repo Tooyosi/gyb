@@ -1,7 +1,7 @@
 import React from 'react'
 import { Formik, Form, useField } from 'formik';
 import * as Yup from 'yup';
-import { Row, Col } from 'reactstrap'
+import { Row, Col, Input } from 'reactstrap'
 import Button from 'components/Button/Button'
 
 const MyTextInput = ({ label, ...props }) => {
@@ -13,7 +13,7 @@ const MyTextInput = ({ label, ...props }) => {
                 <label htmlFor={props.id || props.name}>{label}</label>
             </div>
 
-            <input className="text-input bg-creamwhite form-field" {...field} {...props} />
+            <Input className="text-input bg-creamwhite form-field" {...field} {...props} invalid={meta.touched && meta.error}/>
             {meta.touched && meta.error ? (
                 <small className="error text-danger">{meta.error}</small>
             ) : null}

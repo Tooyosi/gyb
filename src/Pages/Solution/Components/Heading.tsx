@@ -3,9 +3,9 @@ import { Container, Row, Col } from 'reactstrap'
 
 const Heading = () => {
   return (
-    <Container fluid className='text-center bg-creamwhite first_card py-4 header px-6'>
+    <Container className='text-center bg-creamwhite first_card py-4 header'>
         <Row>
-            <Col>
+            <Col md="8" sm="12" className='mx-auto text-center'>
               <h5 className='text-green header'>OUR SOLUTION</h5>
               <h6 className='header'>Lorem ipsum dolor sit amet consectetur. Gravida habitasse rhoncus tempus tellus nec.</h6>
             </Col>

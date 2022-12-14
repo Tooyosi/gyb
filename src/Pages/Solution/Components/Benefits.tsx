@@ -4,8 +4,8 @@ import { Container, Row, Col } from 'reactstrap'
 const Benefits = () => {
   return (
     <Container className='py-5'>
-        <Row className='header text-center px-6'>
-            <Col>
+        <Row className='header text-center'>
+            <Col className='mx-auto text-center' md="8">
                 <h5 className='text-green'>BENEFITS</h5>
                 <h6>Lorem ipsum dolor sit amet consectetur. Gravida habitasse rhoncus tempus tellus nec.</h6>
             </Col>

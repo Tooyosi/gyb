@@ -31,7 +31,7 @@ const SliderComponent = () => {
         <div>
             <Row>
                 <Col md="10" className='mx-auto'>
-                    <Card>
+                    <Card className='border-0'>
                         <CardBody>
 
                             <Slider  {...settings}>

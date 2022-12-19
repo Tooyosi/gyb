@@ -2,12 +2,14 @@ import React from 'react'
 import HomeAbout from 'Pages/Landing/Components/HomeAbout'
 import Services from './Components/Services'
 import SliderComponent from './Components/Slider'
-import CarouselComponnt from './Components/CarouselComponnt'
+import CarouselComponent from './Components/CarouselComponent'
+import CarouselWithButton from './Components/CarouselWithButton'
 
 const Landing = () => {
   return (
     <div id="landing">
-      <CarouselComponnt />
+      <CarouselComponent />
+      {/* <CarouselWithButton /> */}
       <HomeAbout />
       <div className='bg-creamwhite'>
         <Services />

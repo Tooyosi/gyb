@@ -31,7 +31,7 @@ const Socials = () => {
             </div>
             <div className='mr-3'>
                 <a href={twitter}>
-                    <img loading='lazy' alt="Our Twittwe page" className='left img-fluid'
+                    <img loading='lazy' alt="Our Twitter page" className='left img-fluid'
                         src={require(`assets/images/svgs/Twitter.svg`).default}
                     />
                 </a>

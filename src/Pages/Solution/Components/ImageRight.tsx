@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap'
 
 const ImageRight = () => {
     return (
-        <Container className="bg-creamwhite py-4">
+        <Container fluid className="bg-creamwhite py-4 px-5">
             <Row className='align-items-center'>
                 <Col className='header' md="6" sm="12">
                     <h5 className='text-green'>OUR STORY</h5>

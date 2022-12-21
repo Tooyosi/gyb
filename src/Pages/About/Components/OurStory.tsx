@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'reactstrap'
 const OurStory = () => {
   return (
     <Container fluid>
-            <Row className='mx-5 mt-5 py-3 justify-content-md-center'>
+            <Row className='mx-md-5 mt-5 py-3 justify-content-md-center'>
                 <Col md="7"  sm="12" className='mr-3 text-start'>
                     <h6 className="small-header green_header">OUR STORY</h6>
                     <h4 className='main-header'>Lorem ipsum dolor sit amet consectetur. Duis vestibulum faucibus porta facilisis faucibus.</h4>

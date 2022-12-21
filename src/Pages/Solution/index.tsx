@@ -13,7 +13,6 @@ const Solution = () => {
           <ImageLeft />
           <ImageRight />
           <Benefits />
-          <Growth />
         </div>
   )
 }

@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap'
 
 const ImageLeft = () => {
     return (
-        <Container className="bg-creamwhite py-4">
+        <Container fluid className="py-4 px-5">
             <Row className='align-items-center'>
                 <Col md="6" sm="12">
                     <img loading='lazy' alt="Our Story" className='img-fluid'

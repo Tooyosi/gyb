@@ -5,9 +5,9 @@ import { Col, Container, Row } from 'reactstrap'
 
 const HomeAbout = () => {
   return (
-    <Container fluid className='home_about my-4'>
+    <Container fluid className='home_about my-4 mx-md-4'>
       <Row>
-        <Col md="6">
+        <Col md="6" className='mb-sm-2'>
           <img loading='lazy' alt="who we are" className='img-fluid'
             src={require(`assets/images/svgs/Home_About.svg`).default}
           />

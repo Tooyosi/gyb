@@ -7,8 +7,8 @@ import { Container, Row, Col } from 'reactstrap';
 
 const ContactForm = () => {
   return (
-    <Container >
-        <Row className='justify-content-center'>
+    <Container fluid className='bg-creamwhite pb-5'>
+        <Row className='justify-content-center align-items-top'>
             <Col md="5" sm="12">
                 <SimpleFormik />
             </Col>

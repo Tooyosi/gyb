@@ -17,12 +17,12 @@ const OurCoreValues = () => {
                 {/* Left column */}
                 <Col className='justify-content-left mx-2' md="4">
                     <Row className='bg-white my-3 py-1'>
-                        <Col md="2">
+                        <Col md="2" xs="2">
                             <img loading='lazy' alt="Data Security" className='img-fluid'
                                 src={require(`../Assets/Images/Security.svg`).default}
                             />
                         </Col>
-                        <Col md="10" className='p-0'>
+                        <Col md="10" xs="10" className='p-0'>
                             <h5>Data Security</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu velit eu eleifend commodo ac et.</p>
                         </Col>
@@ -31,12 +31,12 @@ const OurCoreValues = () => {
 
 
                     <Row className='bg-white my-3 py-1'>
-                        <Col md="2">
+                        <Col md="2" xs="2">
                             <img loading='lazy' alt="Data Security" className='img-fluid'
                                 src={require(`../Assets/Images/QA.svg`).default}
                             />
                         </Col>
-                        <Col md="10" className='p-0'>
+                        <Col md="10" xs="10" className='p-0'>
                             <h5>Quality Assurance</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu velit eu eleifend commodo ac et.</p>
                         </Col>
@@ -47,12 +47,12 @@ const OurCoreValues = () => {
                 {/* Right column */}
                 <Col className='justify-content-left mx-2' md="4">
                     <Row className='bg-white my-3 py-1'>
-                        <Col md="2">
+                        <Col md="2" xs="2">
                             <img loading='lazy' alt="Data Security" className='img-fluid'
                                 src={require(`../Assets/Images/Growth.svg`).default}
                             />
                         </Col>
-                        <Col md="10" className='p-0'>
+                        <Col md="10" xs="10" className='p-0'>
                             <h5>Business Growth</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu velit eu eleifend commodo ac et.</p>
                         </Col>
@@ -60,12 +60,12 @@ const OurCoreValues = () => {
 
 
                     <Row className='bg-white my-3 py-1'>
-                        <Col md="2">
+                        <Col md="2" xs="2">
                             <img loading='lazy' alt="Data Security" className='img-fluid'
                                 src={require(`../Assets/Images/Insurance.svg`).default}
                             />
                         </Col>
-                        <Col md="10" className='p-0'>
+                        <Col md="10" xs ="10" className='p-0'>
                             <h5>Insurance Secured</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu velit eu eleifend commodo ac et.</p>
                         </Col>

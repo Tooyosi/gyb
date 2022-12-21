@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap'
 
 const Benefits = () => {
   return (
-    <Container className='py-5'>
+    <Container fluid className='py-5 px-1'>
         <Row className='header text-center'>
             <Col className='mx-auto text-center' md="8">
                 <h5 className='text-green'>BENEFITS</h5>

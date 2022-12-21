@@ -4,12 +4,12 @@ import Button from 'components/Button/Button'
 
 const Growth = () => {
   return (
-    <Container fluid className='growth_rectangle text-white'>
+    <Container fluid className='growth_rectangle text-white mt-5'>
         <Row>
             <Col md='6'>
                 &nbsp;
             </Col>
-            <Col md='6 header'>
+            <Col md='6' className='header'>
                 <h5 className='py-1'>BUSINESS GROWTH</h5>
                 <h6 className='py-1'>Lorem ipsum dolor sit amet consectetur. Varius dolor praesent.</h6>
                 <p className='py-1'>Lorem ipsum dolor sit amet consectetur. Quam aenean urna viverra praesent fames. Nulla tellus in feugiat egestas. In varius velit elit lacus ultricies a at tortor arcu. Lacus ipsum vehicula dolor sed viverra mauris donec feugiat.</p>

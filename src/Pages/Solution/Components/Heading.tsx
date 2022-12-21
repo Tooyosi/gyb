@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap'
 
 const Heading = () => {
   return (
-    <Container className='text-center bg-creamwhite first_card py-4 header'>
+    <Container fluid className='text-center bg-creamwhite first_card py-4 px-5 header'>
         <Row>
             <Col md="8" sm="12" className='mx-auto text-center'>
               <h5 className='text-green header'>OUR SOLUTION</h5>

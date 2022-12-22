@@ -3,14 +3,14 @@ import { Container, Row, Col } from 'reactstrap'
 
 const ImageLeft = () => {
     return (
-        <Container fluid className="py-4 px-5">
+        <Container fluid className="py-4 px-md-5 px-1">
             <Row className='align-items-center'>
                 <Col md="6" sm="12">
                     <img loading='lazy' alt="Our Story" className='img-fluid'
                         src={require(`../Assets/Images/Picture.svg`).default}
                     />
                 </Col>
-                <Col className='header' md="6" sm="12">
+                <Col className='header mt-2 mt-md-0' md="6" sm="12">
                     <h5 className='text-green'>OUR STORY</h5>
                     <h6>Lorem ipsum dolor sit amet consectetur. Duis vestibulum faucibus porta facilisis faucibus.</h6>
                     <p>Lorem ipsum dolor sit amet consectetur. Urna sagittis mattis venenatis augue. Elementum augue in massa hendrerit enim non. Blandit sit ac adipiscing ultricies ut viverra nunc rutrum. Tincidunt nullam viverra ultricies interdum lectus lectus. Ultricies consectetur et magna urna aliquet sed.</p>

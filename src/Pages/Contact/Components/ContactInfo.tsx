@@ -5,13 +5,13 @@ import Socials from 'components/Socials/Socials'
 const ContactInfo = () => {
 
   return (
-    <Container>
+    <Container fluid>
         <Row>
             <Col>
-                <p>We are always available to respond when you send us a mail!</p>
-                <h5 className='my-2 text-green header'>FOLLOW US</h5>
+                <p className='mt-sm-3 mt-md-0'>We are always available to respond when you send us a mail!</p>
+                <h5 className='mt-3 mb-2 text-green header'>FOLLOW US</h5>
                 <Socials />
-                <h5 className='my-2 text-green header'>CONTACT INFORMATION</h5>
+                <h5 className='mt-3 mb-2 text-green header'>CONTACT INFORMATION</h5>
                 <p>
                         <img loading='lazy' alt="Telephone number" className='left img-fluid'
                             src={require(`assets/images/svgs/Telephone.svg`).default}

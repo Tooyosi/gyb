@@ -70,7 +70,7 @@ const SimpleFormik = () => {
             }}
         >
             <Form>
-                <Row className='my-2'>
+                <Row className='mb-2'>
                     <Col>
                         <MyTextInput
                             label="FIRST NAME"
@@ -110,7 +110,7 @@ const SimpleFormik = () => {
                     </Col>
                 </Row>
 
-                <Row className='my-2'>
+                <Row className='mt-2'>
                     <Col>
                         <MyMessageBox
                             label="YOUR MESSAGE"

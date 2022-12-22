@@ -3,9 +3,9 @@ import { Container, Row, Col } from 'reactstrap'
 
 const ImageRight = () => {
     return (
-        <Container fluid className="bg-creamwhite py-4 px-5">
+        <Container fluid className="bg-creamwhite py-4 px-md-5 px-1">
             <Row className='align-items-center'>
-                <Col className='header' md="6" sm="12">
+                <Col className='header mt-2 mt-md-0' md="6" sm="12">
                     <h5 className='text-green'>OUR STORY</h5>
                     <h6>Lorem ipsum dolor sit amet consectetur. Duis vestibulum faucibus porta facilisis faucibus.</h6>
                     <p>Lorem ipsum dolor sit amet consectetur. Urna sagittis mattis venenatis augue. Elementum augue in massa hendrerit enim non. Blandit sit ac adipiscing ultricies ut viverra nunc rutrum. Tincidunt nullam viverra ultricies interdum lectus lectus. Ultricies consectetur et magna urna aliquet sed.</p>

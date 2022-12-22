@@ -8,7 +8,7 @@ const ContactInfo = () => {
     <Container fluid>
         <Row>
             <Col>
-                <p className='mt-sm-3 mt-md-0'>We are always available to respond when you send us a mail!</p>
+                <p className='mt-3 mt-md-0'>We are always available to respond when you send us a mail!</p>
                 <h5 className='mt-3 mb-2 text-green header'>FOLLOW US</h5>
                 <Socials />
                 <h5 className='mt-3 mb-2 text-green header'>CONTACT INFORMATION</h5>

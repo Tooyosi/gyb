@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'reactstrap'
 
 const HomeAbout = () => {
   return (
-    <Container fluid className='home_about my-4 mx-md-4'>
+    <Container className='home_about my-4'>
       <Row>
         <Col md="6" className='mb-sm-2 text-center'>
           <img loading='lazy' alt="who we are" className='img-fluid'

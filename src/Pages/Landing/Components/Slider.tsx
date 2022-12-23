@@ -28,7 +28,7 @@ const dataToMap = [
 
 const SliderComponent = () => {
     return (
-        <div>
+        <div className='container'>
             <Row>
                 <Col md="10" className='mx-auto'>
                     <Card className='border-0'>

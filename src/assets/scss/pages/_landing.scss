@@ -64,12 +64,12 @@
     @media (min-width: 1px) and (max-width: #{map-get($grid-breakpoints, 'sm') - .02px}) {
         &.slick-prev {
             // left: -1rem;
-            display: none;
+            display: none !important;
         }
 
         &.slick-next {
             // right: 0rem;
-            display: none;
+            display: none !important;
         }
     }
 }

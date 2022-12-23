@@ -7,7 +7,7 @@ const HomeAbout = () => {
   return (
     <Container fluid className='home_about my-4 mx-md-4'>
       <Row>
-        <Col md="6" className='mb-sm-2'>
+        <Col md="6" className='mb-sm-2 text-center'>
           <img loading='lazy' alt="who we are" className='img-fluid'
             src={require(`assets/images/svgs/Home_About.svg`).default}
           />

@@ -32,7 +32,7 @@ const OurCoreValues = () => {
 
                     <Row className='bg-white my-3 py-1'>
                         <Col md="2" xs="2">
-                            <img loading='lazy' alt="Data Security" className='img-fluid'
+                            <img loading='lazy' alt="Quality Assurance" className='img-fluid'
                                 src={require(`../Assets/Images/QA.svg`).default}
                             />
                         </Col>
@@ -48,7 +48,7 @@ const OurCoreValues = () => {
                 <Col className='justify-content-left mx-2' md="4">
                     <Row className='bg-white my-3 py-1'>
                         <Col md="2" xs="2">
-                            <img loading='lazy' alt="Data Security" className='img-fluid'
+                            <img loading='lazy' alt="Business Growth" className='img-fluid'
                                 src={require(`../Assets/Images/Growth.svg`).default}
                             />
                         </Col>
@@ -61,7 +61,7 @@ const OurCoreValues = () => {
 
                     <Row className='bg-white my-3 py-1'>
                         <Col md="2" xs="2">
-                            <img loading='lazy' alt="Data Security" className='img-fluid'
+                            <img loading='lazy' alt="Insurance Secured" className='img-fluid'
                                 src={require(`../Assets/Images/Insurance.svg`).default}
                             />
                         </Col>

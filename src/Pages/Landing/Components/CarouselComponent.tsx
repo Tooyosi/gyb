@@ -44,12 +44,12 @@ const slides = items.map((item, i) => {
             {/* <img src={item.src} className="w-100 img-fluid" alt="" /> */}
             <Container>
                 <Row>
-                    <Col className='md-6 my-5 pt-4'>
+                    <Col md="6" className=' my-5 pt-4 ml-4 ml-md-0'>
                         <h1 className='text-white py-1'>Lorem ipsum dolor sit amet consectetur. In sed.</h1>
                         <p className='text-white py-1'>Lorem ipsum dolor sit amet consectetur. Eleifend placerat. Lorem ipsum dolor sit amet consectetur. Eleifend placerat.</p>
                         <Button className='bg-green px-4 py-1' text='Learn More'/>
                     </Col>
-                    <Col className='md-6'>
+                    <Col md="6">
                         &nbsp;
                     </Col>
                 </Row>

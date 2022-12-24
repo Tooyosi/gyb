@@ -29,25 +29,6 @@
     padding-bottom: 150px;
 }
 
-/* Indicator styles */
-.carousel-indicators button{
-    // border: 1px solid white !important;
-    // border-style: double;
-    border-radius: 10px !important;
-    height: 10px !important;
-    width: 10px !important;
-  }
-
   .carousel-indicators button:not(:first-child) {
-    margin-left: 0.5rem;
-  }
-
-  .carousel-indicators button.active {
-
-    border: 1px solid $white !important;
-    // border-style: dotted;
-    border-radius: 10px !important;
-    height: 10px !important;
-    width: 10px !important;
-    // border-style: double !important;
+    margin-left: 0.75rem;
   }

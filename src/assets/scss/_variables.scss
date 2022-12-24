@@ -44,3 +44,7 @@ $spacers: (
   6: $spacer * 7,
 );
 
+// Carousel
+$carousel-indicator-active-bg: $transparent !important;
+$carousel-indicator-active-opacity:  0;
+$carousel-indicator-opacity: 0;
